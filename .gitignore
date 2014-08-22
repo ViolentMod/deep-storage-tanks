@@ -1,16 +1,22 @@
-*.class
+## gradle
+/.gradle
+/build
 
-*.jar
-*.war
-*.ear
+## ForgeGradle
+/run
 
-/cpw
-/ibxm
-/net
-/paulscode
-*.cfg
-fmlversion.properties
-forge_logo.png
-mcp.png
-mcpmod.info
-Start.java
+## eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
+
+## intellij
+/out
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/atlassian-ide-plugin.xml
